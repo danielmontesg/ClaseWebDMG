@@ -1,14 +1,17 @@
 <html>
 	<head>
 		
-
-
 	</head>
 	<body>
 		Esto es MySQL
 
 		<?php
-echo "<p>Esto esta adentro de PHP</p>";
+echo "<p>Esto es HTML dentro de PHP</p>";
+$host ='localhost';
+$user ='root';
+$pass ='';
+
+$database= 'icesi';
 		?>
 
 	</body>
